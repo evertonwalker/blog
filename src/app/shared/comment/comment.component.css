@@ -1,0 +1,28 @@
+.card-comment{
+    background: #192734;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    padding: 10px;
+    width: 95%;
+}
+
+.header-comment{
+    color:#F45D22;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-name{
+    width: 45%;
+}
+
+.body-comment{
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 2%;
+    font-size: em;
+    color: #FFFFFF;
+}
+

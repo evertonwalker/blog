@@ -1,0 +1,10 @@
+<div class="header-div">
+    <div class="welcome-title">
+        <label class="label-header" routerLink="/">
+            Bem vindo
+        </label>
+    </div>    
+    <div class="filter-div">
+        <input class="input-text" type="text" placeholder="Filtre pelo titulo os posts" (keyup)="search($event.target.value)">
+    </div>
+</div>

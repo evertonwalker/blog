@@ -1,0 +1,25 @@
+.card-post{
+    background: #192734;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    padding: 10px;
+    width: 95%;
+}
+
+.header-post{
+    color:#F45D22;
+    font-size: 1.2em;
+    margin-bottom: 2%;
+    width: 90%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.body-post{
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 2%;
+    font-size: em;
+    color: #FFFFFF;
+}
+

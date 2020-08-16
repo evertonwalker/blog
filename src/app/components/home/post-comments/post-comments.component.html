@@ -1,0 +1,11 @@
+<section id="posts">
+    <div class="div-posts" *ngIf="post">
+        <app-post [post]="post" ></app-post>
+    </div>
+</section>
+
+<section id="comments">
+    <div class="div-comments">
+        <app-comment *ngFor="let comment of comments" [comment]="comment"></app-comment>
+    </div>
+</section>

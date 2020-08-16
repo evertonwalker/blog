@@ -1,0 +1,17 @@
+.div-posts{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    height: calc(100vh - 10em);
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+
+@media (max-width: 650px) {
+    .div-posts{
+        width: 96%;
+        margin-left: 2%;
+        height: calc(100vh - 6em);
+    }
+}

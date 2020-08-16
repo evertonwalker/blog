@@ -1,0 +1,57 @@
+.header-div {
+    background-color: #192734;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.label-header{
+    color: #F45D22;
+    font-size: 2.0em;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.welcome-title{
+    width: 40%;
+    padding-top: 2%;
+    cursor: pointer;
+}
+
+.filter-div{
+    width: 20%;
+    padding-top: 2%;
+}
+
+.input-text{
+    padding: 10px;
+    border-radius: 8px;
+    background: #15202B;
+    color: #F45D22;
+    border: 1px solid #F45D22;
+}
+
+
+@media (max-width: 650px) {
+    .welcome-title{
+        width: 50%;
+        padding-top: 2%;
+    }
+
+    .header-div{
+        max-width: 100%;
+    }
+
+    .filter-div{
+        width: 60%;
+        padding-top: 2%;
+    }
+
+    .label-header{
+        color: #F45D22;
+        font-size: 1.5em;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+}
